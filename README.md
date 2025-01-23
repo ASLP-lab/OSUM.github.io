@@ -4,7 +4,7 @@
 <br><br>
 
 <p align="center">
-    <img src="images/ASLP.png" width="400"/>
+    <img src="raw/fig/ASLP.png" width="400"/>
 <p>
 
 <p align="center">
@@ -25,5 +25,5 @@ Our goal is to foster transparency and accelerate SULM research by providing acc
 The overview of the architecture and tasks of OSUM.
 
 <p align="center">
-    <img src="images/Architecture.png" width="80%"/>
+    <img src="raw/fig/Architecture.png" width="80%"/>
 <p>
