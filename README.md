@@ -1,7 +1,4 @@
-<p align="left">
-        <a href="README_CN.md">中文</a> &nbsp｜ &nbsp English&nbsp&nbsp
-</p>
-<br><br>
+
 
 <p align="center">
     <img src="raw/fig/ASLP.png" width="400"/>
@@ -10,7 +7,7 @@
 <p align="center">
 OSUM <a href=""> 敬请期待</a> </a>&nbsp
 <br>
-📑 <a href="">Paper</a> &nbsp&nbsp | &nbsp&nbsp 📑 <a href="https://aslp-lab.github.io/OSUM.github.io/">Blog</a> &nbsp&nbsp | &nbsp&nbsp 💬 <a href="">WeChat (微信)</a>&nbsp&nbsp 
+📑 <a href="">Paper</a> &nbsp&nbsp | &nbsp&nbsp 📑 <a href="https://aslp-lab.github.io/OSUM.github.io/">Demo</a> &nbsp&nbsp | &nbsp&nbsp 💬 <a href="raw/fig/wechat.png">WeChat (微信)</a>&nbsp&nbsp 
 </p>
 
 
