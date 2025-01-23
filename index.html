@@ -23,13 +23,15 @@
 /*             width: 120px; /* Adjust the width as needed */ */
             font-weight: bold;
         }
-    .video-container {
+   .video-container {
       display: flex;
-      justify-content: center;
-      align-items: center;
-      flex-direction: column;
-      height: 100vh;  /* 让容器填满整个视口高度 */
-    }
+      flex-direction: column;  /* 让视频和文字垂直排列 */
+      justify-content: center; /* 垂直方向居中 */
+      align-items: center;     /* 水平方向居中 */
+      height: 100vh;           /* 让容器填满整个视口高度 */
+      gap: 10px;               /* 增加间距，防止重叠 */
+  }
+
         .explanation {
             display: inline-block;
 /*             margin-left: 20px; /* Adjust the margin as needed */ */
