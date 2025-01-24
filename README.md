@@ -23,5 +23,5 @@ Beyond delivering strong performance, OSUM emphasizes transparency by providing 
 The overview of the architecture and tasks of OSUM.
 
 <p align="center">
-    <img src="raw/fig/Architecture.png" width="80%"/>
+    <img src="raw/fig/system.png" width="80%"/>
 <p>
