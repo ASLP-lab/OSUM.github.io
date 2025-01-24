@@ -1,7 +1,7 @@
 
 
 <p align="center">
-    <img src="raw/fig/ASLP.png" width="400"/>
+    <img src="raw/fig/ASLP.jpg" width="400"/>
 <p>
 
 <p align="center">
