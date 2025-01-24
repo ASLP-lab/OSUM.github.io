@@ -11,12 +11,21 @@ OSUM <a href=""> coming soon</a> </a>&nbsp
 </p>
 
 
-We present OSUM, an open-source SULM designed to encourage broader research participation with minimal resource requirements. OSUM integrates a Whisper speech encoder, fine-tuned on a multi-task dataset, with a Qwen2 LLM. It supports various speech tasks, including <b>ASR</b>, <b>SRWT</b>, <b>VED</b>, <b>SER</b>, <b>SSR</b>, <b>SGC</b>, <b>SAP</b>, and <b>STTC</b>. Notably, <b>SSR</b> enhances speech generation by ensuring appropriate styles for natural interactions.  
-
-To improve training efficiency and stability, we adopt an ASR+X strategy, where an auxiliary ASR task is trained alongside the primary task (X), accelerating modality alignment between text and audio. OSUM uses 44,100 hours of training data and achieves competitive performance. It is trained on Nvidia A6000 GPUs and Huawei Ascend NPUs, supporting inference on both platforms.  
-
-Our goal is to foster transparency and accelerate SULM research by providing accessible tools and resources to the community.
-
+Large Language Models (LLMs) have made significant progress in various downstream
+tasks, inspiring the development of Speech Understanding Language Models (SULMs) to
+enable comprehensive speech-based interactions. However, most advanced SULMs are developed by the industry, leveraging large-scale datasets and computational resources that
+are not readily available to the academic community. Moreover, the lack of transparency
+in training details creates additional barriers to further innovation. In this study, we
+present OSUM, an Open Speech Understanding Model designed to explore the potential
+of training SLUMs under constrained academic resources. The OSUM model combines
+a Whisper encoder with a Qwen2 LLM and supports a wide range of speech tasks, including speech recognition (ASR), speech recognition with timestamps (SRWT), vocal
+event detection (VED), speech emotion recognition (SER), speaking style recognition
+(SSR), speaker gender classification (SGC), speaker age prediction (SAP), and speechto-text chat (STTC). By employing an ASR+X training strategy, OSUM achieves efficient
+and stable multi-task training by simultaneously optimizing ASR alongside target tasks.
+Beyond delivering strong performance, OSUM emphasizes transparency by providing
+openly available data preparation and training methodologies, offering valuable insights
+and practical guidance for the academic community. By doing so, we aim to accelerate
+research and innovation in advanced SULM technologies
 ## Architecture
 
 The overview of the architecture and tasks of OSUM.
